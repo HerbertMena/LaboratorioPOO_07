@@ -2,21 +2,30 @@ package iterator;
 
 import classes.Resisente;
 
-public class ResidentsCollection implements IterableCollection{
-    List<Resisente> listaResidente;
+import java.util.List;
 
-    public REsidentesCollection(List<Residente> listaResidentes) {
+public class ResidentsCollection implements IterableCollection{
+    List<Resisente> listaResidentes;
+
+    public ResidentesCollection(List<Residente> listaResidentes) {
         this.listaResidentes= listaResidentes;
 
-        @Override
-                public Iterator createSolventeResidentesIterator(){
+    @Override
+    public Iterator createSolventeResidentesIterator(){
             return null;
         }
-        public List<Residente> getListaDebtorsResidnetes(){
-            List<Residente> listaDebtors;
-            for (REsidente residente; this.listaResidentes){
-                if (resident.getSaldoDeudor)
+
+    public List<Residente> getListaDebtorsResidents(){
+
+    }
+
+    public List<Residente> getListaDebtorsResidnetes(){
+            List<Residente> listaDebtors = new ArrayList<>();
+            for (Residente residente; this.listaResidentes){
+                if (resident.getSaldoDeudor() == 0)
+                    listaDebtors.add(resident);
             }
+            return listaDebtors;
         }
     }
 

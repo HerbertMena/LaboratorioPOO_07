@@ -5,7 +5,7 @@ public class Resisente {
     private String apellidos;
     private int numeroDpt;
     private double saldoDeudor;
-    private String nuemroTelefono;
+    private String numeroTelefono;
     private String correo;
 
     public Residente(){}
@@ -15,7 +15,7 @@ public class Resisente {
         this.apellidos = apellidos;
         this.numeroDpt = numeroDpt;
         this.saldoDeudor = saldoDeudor;
-        this.nuemroTelefono = nuemroTelefono;
+        this.numeroTelefono = numeroTelefono;
         this.correo = correo;
     }
 
@@ -51,12 +51,12 @@ public class Resisente {
         this.saldoDeudor = saldoDeudor;
     }
 
-    public String getNuemroTelefono() {
-        return nuemroTelefono;
+    public String getNumeroTelefono() {
+        return numeroTelefono;
     }
 
-    public void setNuemroTelefono(String nuemroTelefono) {
-        this.nuemroTelefono = nuemroTelefono;
+    public void setNumeroTelefono(String numeroTelefono) {
+        this.numeroTelefono = numeroTelefono;
     }
 
     public String getCorreo() {
